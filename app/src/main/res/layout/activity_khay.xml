@@ -4,65 +4,67 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".Khay">
 
     <EditText
-        android:id="@+id/name_ET"
+        android:id="@+id/your_name"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_margin="4dp"
         android:layout_marginBottom="4dp"
         android:ems="10"
-        android:hint="@string/name"
-        app:layout_constraintBottom_toTopOf="@+id/TeamNameET"
+        android:hint="@string/your_name"
+        app:layout_constraintBottom_toTopOf="@+id/YourCountry"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        android:inputType="text" />
 
     <EditText
-        android:id="@+id/TeamNameET"
+        android:id="@+id/YourCountry"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_margin="4dp"
         android:ems="10"
-        android:hint="@string/team_name"
+        android:hint="@string/your_country_of_origin"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/name_ET" />
+        app:layout_constraintTop_toBottomOf="@+id/your_name" />
 
     <EditText
-        android:id="@+id/EmailET"
+        android:id="@+id/YourEmail"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_margin="4dp"
         android:ems="10"
-        android:hint="@string/email_address"
+        android:hint="@string/your_email_address"
         android:inputType="textEmailAddress"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/TeamNameET" />
+        app:layout_constraintTop_toBottomOf="@+id/YourCountry" />
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/Details"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:layout_margin="4dp"
         android:textSize="20sp"
         android:textStyle="bold"
-        app:layout_constraintBottom_toTopOf="@+id/displayTextButton"
+        app:layout_constraintBottom_toTopOf="@+id/displayDetailsButton"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/EmailET" />
+        app:layout_constraintTop_toBottomOf="@+id/YourEmail" />
 
     <Button
-        android:id="@+id/displayTextButton"
+        android:id="@+id/displayDetailsButton"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_margin="4dp"
-        android:backgroundTint="@color/colorPrimary"
-        android:text="@string/display_text"
+        android:backgroundTint="#127ACC"
+        android:text="@string/display_details"
         android:textColor="#ffffff"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
