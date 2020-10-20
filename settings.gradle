@@ -1,0 +1,2 @@
+include ':app'
+rootProject.name = "get_and_set"
