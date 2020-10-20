@@ -1,5 +1,6 @@
 package com.noelon.get_and_set
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Toast
@@ -24,7 +25,6 @@ class MainActivity : AppCompatActivity() {
 
                 Toast.makeText(this, "Fill in your details please", Toast.LENGTH_SHORT).show()
             }
-
 
         }
 
