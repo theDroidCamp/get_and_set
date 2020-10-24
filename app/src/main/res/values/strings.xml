@@ -9,4 +9,8 @@
     <string name="display_details">Display Details</string>
     <string name="your_email_address">Your Email Address</string>
     <string name="your_country_of_origin">your_country_of_origin</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="email">Email</string>
+
+
 </resources>
