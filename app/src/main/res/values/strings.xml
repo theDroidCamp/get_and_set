@@ -1,5 +1,7 @@
 <resources>
     <string name="app_name">get_and_set</string>
+    <string name="enter_your_name">Enter Your Name</string>
+    <string name="enter_your_team_name">Enter Your Team Name</string>
     <string name="name">Name</string>
     <string name="team_name">Team name</string>
     <string name="email_address">Email Address</string>
