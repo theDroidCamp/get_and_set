@@ -3,7 +3,12 @@ package com.noelon.get_and_set
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Toast
+import kotlinx.android.synthetic.main.activity_details_taofeeq.*
 import kotlinx.android.synthetic.main.activity_main.*
+import kotlinx.android.synthetic.main.activity_main.EmailET
+import kotlinx.android.synthetic.main.activity_main.TeamNameET
+import kotlinx.android.synthetic.main.activity_main.displayTextButton
+import kotlinx.android.synthetic.main.activity_main.textView
 
 class TaofeeqDetailsActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

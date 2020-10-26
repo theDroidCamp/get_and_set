@@ -13,6 +13,11 @@
     <string name="your_country_of_origin">your_country_of_origin</string>
     <string name="phone_number">Phone Number</string>
     <string name="email">Email</string>
+    <string name="enter_first_name">First name</string>
+    <string name="enter_team_name">Team Name</string>
+    <string name="your_level_beginner_expert">Level(Beginner/Expert)</string>
+    <string name="submit">Display Details</string>
+    <string name="enter_email">Email</string>
 
 
 </resources>
