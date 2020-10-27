@@ -11,23 +11,28 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-  /** 
-        displayTextButton.setOnClickListener {
-            val name = nameET.text.toString()
-            val teamName = TeamNameET.text.toString()
-            val emailAddress = EmailET.text.toString()
-
-            if (name.isNotEmpty() && teamName.isNotEmpty() && emailAddress.isNotEmpty()) {
-
-                textView.text =
-                    "My name is $name, and i'm in team $teamName. Here's my email address too $emailAddress "
-            } else {
-
-                Toast.makeText(this, "Fill in your details please", Toast.LENGTH_SHORT).show()
-            }
-
-        }
 
 
-*/    }
+
+   //     displayTextButton.setOnClickListener {
+//            val name = nameET.text.toString()
+//            val teamName = TeamNameET.text.toString()
+//            val emailAddress = EmailET.text.toString()
+//
+//            if (name.isNotEmpty() && teamName.isNotEmpty() && emailAddress.isNotEmpty()) {
+//
+//                textView.text =
+//                    "My name is $name, and i'm in team $teamName. Here's my email address too $emailAddress "
+//            } else {
+//
+//                Toast.makeText(this, "Fill in your details please", Toast.LENGTH_SHORT).show()
+//            }
+
+//            val intent:Intent = Intent(this, OscarActivity::class.java)
+//            startActivity(intent)
+
+   //     }
+
+
+   }
 }

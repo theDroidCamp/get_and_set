@@ -9,15 +9,13 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Sultan"></activity>
-        <activity android:name=".DisplayText_Dianah">
-       
-        </activity>
-        <activity android:name=".TaofeeqDetailsActivity"/>
-      <activity android:name=".EmuActivity"></activity>
-      <activity android:name=".StephenActivity" />
+        <activity android:name=".OscarActivity"></activity>
+        <activity android:name=".Sultan" />
+        <activity android:name=".DisplayText_Dianah"></activity>
+        <activity android:name=".TaofeeqDetailsActivity" />
+        <activity android:name=".EmuActivity" />
+        <activity android:name=".StephenActivity" />
         <activity android:name=".Khay" />
-      
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -25,7 +23,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-    
     </application>
 
 </manifest>
