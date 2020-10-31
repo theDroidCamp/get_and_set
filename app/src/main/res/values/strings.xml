@@ -18,6 +18,11 @@
     <string name="your_level_beginner_expert">Level(Beginner/Expert)</string>
     <string name="submit">Display Details</string>
     <string name="enter_email">Email</string>
+    <string name="name">Name</string>
+    <string name="email">Email</string>
+    <string name="beginner">Beginner</string>
+    <string name="show_text">Show Text</string>
+    <string name="team_lollipop">Team Lollipop</string>
 
 
 </resources>
