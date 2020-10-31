@@ -9,9 +9,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".OscarActivity"></activity>
+        <activity android:name=".ChibufirstActivity" />
+        <activity android:name=".OscarActivity" />
         <activity android:name=".Sultan" />
-        <activity android:name=".DisplayText_Dianah"></activity>
+        <activity android:name=".DisplayText_Dianah" />
         <activity android:name=".TaofeeqDetailsActivity" />
         <activity android:name=".EmuActivity" />
         <activity android:name=".StephenActivity" />
